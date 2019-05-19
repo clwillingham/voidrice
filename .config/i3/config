@@ -6,7 +6,7 @@
 #
 # export FILE="ranger"
 # export TERMINAL="st"
-
+exec ~/.screenlayout/home-layout.sh
 # #---Basic Definitions---# #
 for_window [class="^.*"] border pixel 2
 gaps inner 15
