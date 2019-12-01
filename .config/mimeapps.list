@@ -23,3 +23,5 @@ text/x-gcode=org.gnome.gedit.desktop;
 application/octet-stream=vlc.desktop;
 text/plain=org.gnome.gedit.desktop;
 image/png=eog.desktop;
+application/javascript=org.gnome.Builder.desktop;
+application/json=org.gnome.gedit.desktop;nvim.desktop;
