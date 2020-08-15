@@ -15,13 +15,21 @@ x-scheme-handler/https=chromium.desktop
 x-scheme-handler/about=chromium.desktop
 x-scheme-handler/unknown=chromium.desktop
 x-scheme-handler/webcal=chromium.desktop
+x-scheme-handler/ssh=chromium.desktop
+x-scheme-handler/web+ssh=chromium.desktop
 
 [Added Associations]
 application/pdf=org.gnome.Evince.desktop;
 text/html=org.gnome.Builder.desktop;
 text/x-gcode=org.gnome.gedit.desktop;
-application/octet-stream=vlc.desktop;
-text/plain=org.gnome.gedit.desktop;
-image/png=eog.desktop;
+application/octet-stream=org.gnome.gedit.desktop;vlc.desktop;
+text/plain=org.gnome.gedit.desktop;sublime_text.desktop;
+image/png=org.gnome.eog.desktop;eog.desktop;
 application/javascript=org.gnome.Builder.desktop;
 application/json=org.gnome.gedit.desktop;nvim.desktop;
+x-scheme-handler/sms=org.gnome.Shell.Extensions.GSConnect.desktop;
+x-scheme-handler/tel=org.gnome.Shell.Extensions.GSConnect.desktop;
+application/x-ms-dos-executable=PlayOnLinux.desktop;
+application/x-shellscript=org.gnome.Builder.desktop;
+application/x-cd-image=gnome-disk-image-mounter.desktop;balena-etcher-electron.desktop;
+text/csv=org.gnome.gedit.desktop;
